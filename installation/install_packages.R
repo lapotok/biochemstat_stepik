@@ -22,12 +22,12 @@ build_list = function(from_scratch = F){
     installed <<- as.character(installed.packages()[,"Package"])
   
   uninstalled_cran <<- setdiff(base.packages, installed)
-  uninstalled_git <<- setdiff(names(git.packages), installed)
+  uninstalled_git <<- setdiff(names(github.packages), installed)
   uninstalled <<- c(uninstalled_cran, uninstalled_git)
 }
 print_pkg_list = function(){
   if (length(uninstalled_cran))  cat( paste0("install.packages( c(\"", paste0(uninstalled_cran, collapse='\", \"'), "\"), dependencies = TRUE, type = \"binary\" )\n\n"))
-  if (length(git.packages[uninstalled_git])) cat( paste0("devtools::install_github( c(\"", paste0(git.packages[uninstalled_git], collapse='\", \"'), "\"), upgrade = \"never\", dependencies = TRUE )\n\n"))
+  if (length(github.packages[uninstalled_git])) cat( paste0("devtools::install_github( c(\"", paste0(github.packages[uninstalled_git], collapse='\", \"'), "\"), upgrade = \"never\", dependencies = TRUE )\n\n"))
 }
 
 print_conda_list = function(){
@@ -37,13 +37,13 @@ print_conda_list = function(){
 # ставим
 install_pkgs = function(){
   install.packages(uninstalled_cran, dependencies = TRUE, type ="binary")
-  remotes::install_github(git.packages[uninstalled_git], upgrade = "never", dependencies = TRUE)
+  remotes::install_github(github.packages[uninstalled_git], upgrade = "never", dependencies = TRUE)
 }
 
 installation_report = function(){
   # составляем списки того, что осталось непоставленным
   installed_upd <<- as.character(installed.packages()[,"Package"])
-  uninstalled_upd <<- setdiff(c(base.packages, names(git.packages)), installed_upd)
+  uninstalled_upd <<- setdiff(c(base.packages, names(github.packages)), installed_upd)
   # пишем отчет
   cat(crayon::bold$underline('\nPackage installation report\n'))
   if (length(uninstalled) == 0) {
