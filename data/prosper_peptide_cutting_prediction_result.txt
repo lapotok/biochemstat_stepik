@@ -1,0 +1,37 @@
+>Your Submitted Sequence
+DEAIHCPPCSEEKLARCRPPVGCEELVREPGCGCCATCALGLGMPCGVYTPRCGSGLRCYPPRGVEKPLHTLMHGQGVCMELAEIEAIQESLQPSDKDEGDHPNNSFSPCSAHDRRCLQKHFAKIRDRSTSGGKMKVNGAPREDARPVPQGSCQSELHRALERLAASQSRTHEDLYIIPIPNCDRNGNFHPKQCHPALDGQRGKCWCVDRKTGVKLPGGLEPKGELDCHQLADSFRE
+
+Merops ID	Protease Name	Position	P4-P4' site	N-fragment(kDa)	C-fragment(kDa)	Cleavage score
+C01.036	cathepsin K	236	DSFR|E   	28.47 	28.49  	1.27
+C01.036	cathepsin K	43	LGLG|MPCG	5.03 	23.57  	1.16
+C01.036	cathepsin K	73	HTLM|HGQG	8.79 	19.81  	1.06
+C01.036	cathepsin K	24	VGCE|ELVR	2.73 	25.87  	1.03
+C01.036	cathepsin K	89	EAIQ|ESLQ	10.73 	17.87  	0.99
+M10.003	matrix metallopeptidase-2	47	MPCG|VYTP	5.53 	23.07  	1.00
+M10.004	matrix metallopeptidase-9	47	MPCG|VYTP	5.53 	23.07  	1.22
+M10.004	matrix metallopeptidase-9	72	LHTL|MHGQ	8.66 	19.94  	1.13
+M10.004	matrix metallopeptidase-9	68	VEKP|LHTL	8.20 	20.40  	1.11
+M10.004	matrix metallopeptidase-9	56	CGSG|LRCY	6.68 	21.91  	1.10
+M10.004	matrix metallopeptidase-9	160	LHRA|LERL	19.15 	9.45  	1.07
+M10.004	matrix metallopeptidase-9	43	LGLG|MPCG	5.03 	23.57  	1.04
+M10.004	matrix metallopeptidase-9	219	LPGG|LEPK	26.42 	2.18  	1.02
+M10.004	matrix metallopeptidase-9	3	 DEA|IHCP	0.31 	28.29  	1.01
+M10.004	matrix metallopeptidase-9	96	QPSD|KDEG	11.49 	17.11  	1.00
+M10.004	matrix metallopeptidase-9	193	HPKQ|CHPA	23.08 	5.52  	0.99
+M10.004	matrix metallopeptidase-9	79	QGVC|MELA	9.60 	18.99  	0.97
+S01.001	chymotrypsin A (cattle-type)	235	ADSF|RE  	28.32 	25.53  	1.01
+S01.131	elastase-2	88	IEAI|QESL	10.60 	17.99  	1.51
+S01.131	elastase-2	4	DEAI|HCPP	0.42 	28.17  	1.40
+S01.131	elastase-2	137	KMKV|NGAP	16.46 	12.14  	1.11
+S01.131	elastase-2	78	GQGV|CMEL	9.50 	19.10  	1.06
+S01.131	elastase-2	214	KTGV|KLPG	25.73 	2.86  	1.02
+S01.131	elastase-2	180	IIPI|PNCD	21.45 	7.15  	0.99
+S01.131	elastase-2	130	DRST|SGGK	15.54 	13.06  	0.93
+S01.133	cathepsin G	176	EDLY|IIPI	21.02 	7.58  	1.27
+S01.133	cathepsin G	73	HTLM|HGQG	8.79 	19.81  	1.13
+S01.133	cathepsin G	182	PIPN|CDRN	21.66 	6.93  	0.99
+S01.133	cathepsin G	69	EKPL|HTLM	8.31 	20.29  	0.97
+S01.269	glutamyl peptidase I	2	  DE|AIHC	11.86 	28.36  	1.07
+S01.269	glutamyl peptidase I	143	APRE|DARP	17.20 	11.40  	1.01
+S26.008	thylakoidal processing peptidase	235	ADSF|RE  	28.32 	25.53  	1.07
+S26.008	thylakoidal processing peptidase	103	GDHP|NNSF	12.38 	16.21  	0.95
