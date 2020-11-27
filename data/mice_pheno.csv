@@ -432,7 +432,6 @@ M,high_fat,38.26
 M,high_fat,29.06
 M,high_fat,42.8
 M,high_fat,32.34
-M,high_fat,NA
 M,high_fat,35.48
 M,high_fat,33.05
 M,high_fat,37.06
@@ -652,7 +651,6 @@ M,high_fat,28.57
 M,high_fat,42.09
 M,high_fat,33.18
 M,high_fat,28.56
-M,high_fat,NA
 M,high_fat,30.72
 M,high_fat,24.34
 M,high_fat,34.54
@@ -743,7 +741,6 @@ M,control,35.35
 M,control,32.1
 M,control,23
 M,control,40.7
-M,control,NA
 M,control,28.95
 M,control,28.39
 M,control,35.13
@@ -832,8 +829,6 @@ M,high_fat,33.83
 M,high_fat,30.04
 M,high_fat,27.03
 M,high_fat,34.89
-M,high_fat,NA
-M,high_fat,NA
 M,high_fat,32.07
 M,high_fat,22.48
 M,high_fat,30.93
