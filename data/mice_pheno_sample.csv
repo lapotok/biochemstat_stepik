@@ -1,0 +1,55 @@
+# # делаем выборку из mouse_pheno.csv
+# set.seed(8)
+# mice_M %>% 
+#   group_by(Diet) %>% 
+#   # помечаем попавшие в выборку наблюдения (по 20 в каждой группе)
+#   mutate(is_sampled = sample(c(rep(T, 20), rep(F, n()-20)))) %>% 
+#   ungroup() -> mice_M
+# 
+# mice_M = mice %>% filter(Sex == "M")
+# 
+# mice_sample = sampled_df %>% select(-Sex, -is_sampled) %>% janitor::clean_names()
+#
+# write_csv(mice_sample, "~/git/biochemstat_stepik/data/mice_pheno_sample.csv")
+#
+diet,bodyweight
+high_fat,42.8
+control,28.56
+control,32.04
+control,35.15
+control,32.81
+control,29.34
+control,28.88
+control,37.5
+control,23.66
+high_fat,35.62
+high_fat,38.29
+control,31.37
+control,29.99
+high_fat,36.78
+control,29.91
+high_fat,39.78
+high_fat,31.82
+high_fat,40.09
+high_fat,40.36
+control,34.62
+control,39.22
+control,24.67
+high_fat,28.57
+high_fat,31.27
+high_fat,33.54
+control,26.26
+control,25.41
+control,32.91
+high_fat,33.43
+high_fat,37.12
+high_fat,23.69
+high_fat,31.97
+control,32.69
+control,35.03
+control,28.61
+high_fat,30.13
+high_fat,35.19
+high_fat,29.92
+high_fat,24.52
+high_fat,34.14
