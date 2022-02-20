@@ -36,8 +36,12 @@ print_conda_list = function(){
 
 # ставим
 install_pkgs = function(){
-  install.packages(uninstalled_cran, dependencies = TRUE, type ="binary")
-  remotes::install_github(github.packages[uninstalled_git], upgrade = "never", dependencies = TRUE)
+  for (pkg in uninstalled_cran) {
+    install.packages(pkg, dependencies = TRUE, type ="binary")
+  }
+  for (pkg in github.packages[uninstalled_git]) {
+    remotes::install_github(pkg, upgrade = "never", dependencies = TRUE)
+  }
 }
 
 installation_report = function(){
