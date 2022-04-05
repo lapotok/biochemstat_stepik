@@ -10,7 +10,7 @@ base.packages <<- c(
   "lubridate", "reshape","reshape2", "scales", 
   
   # file import
-  "openxlsx", "gsheet", "readr","readxl", "rio", 
+  "openxlsx", "tidyxl", "gsheet", "readr","readxl", "rio", 
   
   # models
   "investr", "lme4","lmtest","mice","missForest","modelr",
@@ -27,7 +27,7 @@ base.packages <<- c(
   "ggpubr","ggrepel","ggridges","ggstance","ggthemes",
   "corrplot","cowplot","plotly", "rvg", "ggalt","ggExtra", 
   "officer", "ggmosaic", "esquisse", "GGally","ggforce", 
-  "ggprism",
+  "ggprism", "ggsci",
   
   # misc
   "Amelia","boot","gdtools","gridExtra","gtools","hexbin","kableExtra",
