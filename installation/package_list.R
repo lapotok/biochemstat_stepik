@@ -27,6 +27,7 @@ base.packages <<- c(
   "ggpubr","ggrepel","ggridges","ggstance","ggthemes",
   "corrplot","cowplot","plotly", "rvg", "ggalt","ggExtra", 
   "officer", "ggmosaic", "esquisse", "GGally","ggforce", 
+  "ggprism",
   
   # misc
   "Amelia","boot","gdtools","gridExtra","gtools","hexbin","kableExtra",
